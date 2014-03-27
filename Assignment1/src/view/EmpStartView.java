@@ -8,7 +8,7 @@ import model.domain.Emp;
 
 public class EmpStartView {
 	public static void main(String[] args) {
-		System.out.println("ㅎㅇ");
+		System.out.println("ㅎㅇhihello");
 		//emp01 데이터 모두 출력
 		System.out.println("*** emp01 데이터 모두 출력 ***");
 		EmpController.getAllEmp();
