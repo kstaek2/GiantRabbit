@@ -16,7 +16,7 @@ public class EmpStartView {
 		System.out.println("*** emp01 데이터 모두 출력 ***");
 		EmpController.getAllEmp();
 		
-		System.out.println("세윤이완전바보");
+		System.out.println("세윤이완전바보몽충이");
 		System.out.println("*** empno:7369 데이터 출력 ***");
 		EmpController.getOneEmp(7369);
 		
