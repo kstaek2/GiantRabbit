@@ -11,7 +11,7 @@ public class EmpStartView {
 		System.out.println("ㅎㅇhihello");
 		System.out.println("준이천재바보");
 		
-		System.out.println("준이진짜천재");
+		System.out.println("준이진짜천재아니고 바보");
 		//emp01 데이터 모두 출력
 		System.out.println("*** emp01 데이터 모두 출력 ***");
 		EmpController.getAllEmp();
