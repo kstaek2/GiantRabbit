@@ -1,6 +1,6 @@
 package view;
 
-public class EmpFailView {
+public class SubwayFailView {
 	public static void failMsg(String msg){
 		System.out.println(msg);
 	}

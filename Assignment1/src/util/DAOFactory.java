@@ -19,7 +19,7 @@ public class DAOFactory {
 		Connection con=null;
 		try {
 			con=DriverManager.getConnection("jdbc:oracle:thin:@127.0.0.1:1521:xe",
-					"hr", "hr");
+					"scott", "tiger");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
