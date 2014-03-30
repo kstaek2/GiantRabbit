@@ -163,7 +163,7 @@ public class SubwayDAO {
 			pstmt.executeUpdate();
 			
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 }
