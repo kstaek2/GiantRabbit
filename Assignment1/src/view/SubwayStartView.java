@@ -6,11 +6,6 @@ import controller.SubwayController;
 public class SubwayStartView {
 	public static void main(String[] args) {
 		
-		System.out.println("되나여");
-		System.out.println("????");
-		System.out.println("나한테 왜이러니 깃");
-		System.out.println("되라되라되라");
-		
 		//데이터 전체 삭제
 		SubwayController.deleteAll();
 		
