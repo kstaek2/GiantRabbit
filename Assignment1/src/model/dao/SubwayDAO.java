@@ -156,7 +156,6 @@ public class SubwayDAO {
 	public static void deleteAll(){
 		Connection con=null;
 		PreparedStatement pstmt=null;
-		ResultSet rs=null;
 		try {
 			con=DAOFactory.getConnection();
 			pstmt=con.prepareStatement("delete from subway");
