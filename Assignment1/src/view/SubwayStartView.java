@@ -8,6 +8,7 @@ public class SubwayStartView {
 		
 		System.out.println("되나여");
 		System.out.println("????");
+		System.out.println("나한테 왜이러니 깃");
 		
 		//데이터 전체 삭제
 		SubwayController.deleteAll();
