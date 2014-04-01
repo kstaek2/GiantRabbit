@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class DBUtil {
+	
 	public static SqlSessionFactory factory = null;
 	
 	static {
@@ -43,6 +44,7 @@ public class DBUtil {
 			session.close();
 		}
 	}
+	
 	public static void closeSqlSession(boolean commit, SqlSession session) {
 		if (session != null) {
 			if (commit) {

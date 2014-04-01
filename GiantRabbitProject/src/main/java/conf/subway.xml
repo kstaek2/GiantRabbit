@@ -13,7 +13,8 @@
 	</resultMap>
 	
 	<select id="getAllSubway" resultMap="SubwayResult">
-		select * from subway
+		select *
+		from subway
 	</select>
 	
 	<select id="getOneSubway" parameterType="int" resultMap="SubwayResult">
@@ -49,5 +50,5 @@
 		delete
 		from subway
 	</delete>
-
+	
 </mapper>
